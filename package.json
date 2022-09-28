@@ -1,0 +1,63 @@
+{
+  "name": "frontend-challenge-agency-analytics",
+  "version": "1.0.0",
+  "description": "--",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "clean": "rm -rf build",
+    "lint": "eslint src/**/*.{js,ts,tsx}",
+    "lint:fix": "eslint --fix src/**/*.{js,ts,tsx}",
+    "lint-style:fix": "stylelint --fix \"src/**/*.less\" --custom-syntax postcss-less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonioLok/Frontend-Challenge-Agency-Analytics"
+  },
+  "keywords": [],
+  "author": "Antonio Lok Chan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react-dom": "^18.0.6",
+    "bootstrap": "^5.2.0",
+    "classnames": "^2.3.1",
+    "less": "2.7.3",
+    "react": "^17.0.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "babel-core": "6.26.0",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "7.1.4",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "1.0.1",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.11.1",
+    "html-webpack-plugin": "3.0.6",
+    "less-loader": "^5.0.0",
+    "postcss-less": "^6.0.0",
+    "style-loader": "0.23.1",
+    "stylelint": "^14.11.0",
+    "stylelint-config-standard": "^28.0.0",
+    "ts-loader": "^8.2.0",
+    "typescript": "^3.6.3",
+    "webpack": "4.19.1",
+    "webpack-cli": "3.3.4",
+    "webpack-dev-server": "3.3.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}

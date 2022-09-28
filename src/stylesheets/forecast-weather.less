@@ -1,0 +1,22 @@
+.forecast-weather-container {
+  .weather-details {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @media screen and (min-width: 992px) {
+      &:not(:last-child) {
+        border-right: @content-border;
+      }
+    }
+
+    img {
+      width: 60%;
+    }
+
+    .temperature {
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+}

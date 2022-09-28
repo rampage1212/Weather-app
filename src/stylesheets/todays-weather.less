@@ -1,0 +1,61 @@
+.todays-weather-container {
+  text-align: center;
+  border-bottom: @content-border;
+
+  .day {
+    margin-top: 36px;
+    font-size: 34px;
+  }
+
+  .weather-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24vh;
+
+    @media screen and (max-width: 992px) {
+      margin-bottom: 64px;
+    }
+
+    >.weather-image-container {
+      height: 70%;
+
+      @media screen and (min-width: 992px) {
+        text-align: right;
+        height: 100%;
+      }
+
+      img {
+        // height: 100%;
+        width: 100%;
+        margin-top: 25px;
+
+        @media screen and (max-width: 992px) {
+          width: auto;
+        }
+      }
+    }
+
+    >.description {
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+
+      @media screen and (min-width: 992px) {
+        margin-left: 12px;
+        align-items: flex-start;
+      }
+    }
+
+    .temperature {
+      @media screen and (min-width: 992px) {
+        font-weight: 600;
+        font-size: 56px;
+      }
+    }
+
+    .main {
+      font-size: 36px;
+    }
+  }
+}
