@@ -1,5 +1,5 @@
 {
-  "name": "frontend-challenge-agency-analytics",
+  "name": "Weather-app",
   "version": "1.0.0",
   "description": "--",
   "main": "index.js",
@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AntonioLok/Frontend-Challenge-Agency-Analytics"
+    "url": "https://github.com/rampage0131/Weather-app.git"
   },
   "keywords": [],
-  "author": "Antonio Lok Chan",
-  "license": "ISC",
+  "author": "Jake Docker",
+  "license": "",
   "dependencies": {
     "@types/react-dom": "^18.0.6",
     "bootstrap": "^5.2.0",
